@@ -2959,32 +2959,32 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #2F2F32;
+  border-color: #2F2F32;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #16a085;
-  border-color: #15967d;
+  background-color: #08F6FF;
+  border-color: #08F6FF;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #16a085;
-  border-color: #15967d;
-  box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
+  background-color: #07CDD4;
+  border-color: #00bbc2;
+  box-shadow: 0 0 0 0.25rem rgba(60, 182, 198, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #15967d;
-  border-color: #148d75;
+  background-color: #07CDD4;
+  border-color:#00bbc2;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(60, 182, 198, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #08F6FF;
+  border-color: #08F6FF;
 }
 
 .btn-secondary {
@@ -3019,7 +3019,7 @@ textarea.form-control-lg {
 
 .btn-success {
   color: #fff;
-  background-color: #198754;
+  background-color: #198787;
   border-color: #198754;
 }
 .btn-success:hover {
@@ -10929,6 +10929,10 @@ html {
   align-items: center;
 }
 
+.btn-open {
+  margin-bottom: 1.3rem;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -11037,6 +11041,7 @@ html {
 }
 
 
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -11060,18 +11065,19 @@ html {
   font-size: 1.5rem;
 }
 
+
 .portfolio-modal .btn-close {
-  color: #1abc9c;
+  color: #2F2F32;
   font-size: 2rem;
   padding: 1rem;
 }
 .portfolio-modal .portfolio-modal-title {
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   line-height: 2rem;
 }
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 2.5rem;
   }
 }
