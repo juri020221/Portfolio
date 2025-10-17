@@ -49,11 +49,11 @@
   }
 }
 
-
+/* 
 #page-top {
   background-color: #000;
-  background: url(../assets/img/portfolio/bg.png) no-repeat center/cover; /*백그라운드 배경 꽉 차게*/
-}
+  background: url(../assets/img/portfolio/bg.png) no-repeat center/cover; /*백그라운드 배경 꽉 차게
+} */
 
 body {
   margin: 0;
@@ -7441,10 +7441,12 @@ textarea.form-control-lg {
 .text-reset {
   color: inherit !important;
 }
-/* 첫번째 두번째 배경색 삭제*/
-/*.bg-primary {
-  background-color: #181818!important;
-} */
+
+/* 제일 상단 배경 */
+.bg-primary {
+  background-color: #181818;
+  background: url(../assets/img/portfolio/bg.png) no-repeat center/cover; 
+}
 
 .bg-secondary {
   background-color: #181818 !important;
@@ -11080,9 +11082,6 @@ html {
     font-size: 1.5rem;
   }
 }
-
-
-
 
 .portfolio .portfolio-item {
   cursor: pointer;
