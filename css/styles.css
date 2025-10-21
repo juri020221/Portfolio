@@ -11235,10 +11235,14 @@ html {
   color: #fff;
 }
 
-.footer p {
-  color:#08F6FF
+.footer h4 {
+  font-size: 17px;
 }
 
+.footer p {
+  font-size: 26px;
+  color:#08F6FF
+}
 
 .copyright {
   background-color: #000000;
