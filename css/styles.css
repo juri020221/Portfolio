@@ -1959,13 +1959,15 @@ progress {
 }
 .sec-0 {
   gap: 80px;
+  justify-content: space-between;
 }
 
 .sec-0 h2 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding-bottom: 15px;
 }
 .sec-0 span {
+  font-size: 20px;
   padding: 10px 15px;
   margin-right: 15px;
   background-color: #2F2F32;
