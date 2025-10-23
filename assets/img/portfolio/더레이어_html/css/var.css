@@ -1,0 +1,24 @@
+:root {
+  /* 컬러 */
+  --white: #ffffff;
+  --black: #000000;
+  --brand-color: #FF5F09;
+  --gray-scale900: #232323;
+  --gray-scale600: #666666;
+  --gray-scale400: #878787;
+  --gray-scale300: #989898;
+  
+  /* 폰트 */
+  --font-size16: 16px;
+  --font-size18: 18px;
+  --font-size20: 20px;
+  --font-size24: 24px;
+  --font-size28: 28px;
+  --font-size32: 32px;
+  --font-size36: 36px;
+  --font-size46: 46px;
+  --font-size64: 64px;
+  --font-weight400: 400;
+  --font-weight500: 500;
+  --font-weight600: 600;
+}

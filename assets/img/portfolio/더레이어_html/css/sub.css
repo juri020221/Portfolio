@@ -1,0 +1,158 @@
+/* main visual */
+.visual {
+  width: 100%;
+  height: 950px;
+  background: url('../img/sub_main_img.png') no-repeat 50% 0/cover; 
+}
+
+.visual .slide {
+  height: 100%;
+  display: flex;
+  justify-content:left;
+  align-items:flex-end;
+  color: var(--white);
+  padding-bottom: 145px;
+}
+
+.visual .text-area p:first-child {
+  font-family: 'Paperozi';
+  font-size: var(--font-size64);
+  font-weight: var(--font-weight600);
+  padding-bottom: 30px;
+  
+}
+
+.visual .text-area p:last-child {
+  font-size: var(--font-size32);
+  font-weight: var(--font-weight600);
+}
+
+/* youtube */
+.sec01 {
+  padding-top: 200px;
+  display: flex;
+  gap: 163px;
+  font-size: var(--font-size20);
+  font-weight: var(--font-weight400);
+}
+
+.sec01 .text-area p {
+  padding-bottom: 30px;
+}
+
+/* More than teaching, value */
+.sec02
+{
+  padding: 200px 0 200px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec02 .teaching h3 {
+  font-size: var(--font-size64);
+  font-family: 'Paperozi';
+}
+
+.sec02 .teaching p,
+.sec03 .value p,
+.sec04 .startline p {
+  padding-top: 30px;
+  font-size: var(--font-size32);
+  font-weight: var(--font-weight600);
+}
+.sec02 .text p {
+  padding-top: 260px;
+  font-size: var(--font-size20);
+  font-weight: var(--font-weight400);
+}
+.sec02 .text .sign {
+  display: flex;
+  padding-top: 30px;
+}
+.sec02 .text .sign h4 {
+  padding-top: 30px;
+  padding-right: 20px;
+}
+
+.sec03 .value h3,
+.sec04 .startline h3 {
+  font-size: 58px;
+}
+
+.sec03 .value-img .swiper-slide {
+  padding: 100px 0;
+  width: 480px;
+}
+.sec03 .value-img .card-1 {
+  margin-right: 70px;
+}
+
+/* book */
+.sec04 {
+  padding: 100px 0;
+}
+
+.sec04 .startline-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.sec04 .startline-box .startline-img img {
+  padding-right: 30px;
+}
+
+.sec04 .startline-box .startline-text {
+  width: 500px;
+  margin-right: 20px;
+}
+
+.sec04 .startline-box .startline-text h4 {
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.sec04 .startline-box .startline-text p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.sec04 .startline-box .startline-text button {
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 50px;
+}
+.sec04 .startline-box .startline-text button:hover {
+  background-color: var(--brand-color);
+}
+/*  Article post */
+.sec05 .post {
+  width: 100%;
+  height: 30%;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  margin-bottom: 150px;
+  text-align: center;
+}
+.sec05 .post p {
+  font-size: 1.35rem;
+  padding: 120px 50px 0 50px;
+}
+.sec05 .post button {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  background-color: black;
+  color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 50px;
+  margin: 20px 0 100px;
+}
+.sec05 .post button:hover {
+  background-color: var(--brand-color);
+}
