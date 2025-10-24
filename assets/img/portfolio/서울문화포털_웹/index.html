@@ -4,66 +4,147 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>서울문화포털</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/aos.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/var.css">
+  <link rel="stylesheet" href="./css/font.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/main.css"> 
+
+  
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script src="./js/jquery-ui.min.js"></script>
+  <script src="./js/script.js"></script> 
   
 </head>
 <body>
 
    <!-- header -->
- 
-    <gnb class="gnb">
-      <h1>
-        <a href="#"><img src="./image/header-logo-seoul.png" alt="서울특별시로고"></a>
-      </h1>
+    <div class="fixed">
+      <div class="border">
+    <div class="gnb-1 container">
+      <h1><a href="https://www.seoul.go.kr/main/index.jsp"><img src="./image/header-logo-seoul.png" alt="서울특별시로고" target="_blank"></a></h1>
       <nav>
-        <ul>
+        <ul class="nav">
           <li><a href="#">서울소식</a></li>
           <li><a href="#">응답소</a></li>
           <li><a href="#">정보공개</a></li>
           <li><a href="#">분야별정보</a></li>
         </ul>
       </nav>
-    </gnb>
-  
-
-    <header class="header">
+    </div>
+    </div>
+    
+    <div class="width">
+       <header class="header container">
       <h1>
         <a href="#"><img src="./image/header-logo-seoulcultureportal.png" alt="서울문화포털로고"></a>
       </h1>
-      <nav>
-        <ul>
-          <li><a href="#">문화행사</a></li>
-          <li><a href="#">문화정보</a></li>
-          <li><a href="#">문화알리미</a></li>
-          <li><a href="#">이벤트</a></li>
-          <li><a href="#">신청하기</a></li>
-        </ul>
-      </nav>
+       <nav class="gnb-2">
+      <ul>
+        <li class="depth1">
+          <a href="#">문화행사</a>
+          <ul class="depth2">
+            <li><a href="#none">전시</a></li>
+            <li><a href="#none">공연</a></li>
+            <li><a href="#none">축제</a></li>
+            <li><a href="#none">교육 및 체험</a></li>
+          </ul>
+        </li>
+
+         <li class="depth1">
+          <a href="#none">문화정보</a>
+          <ul class="depth2">
+            <li><a href="#none">문화공간</a></li>
+            <li><a href="#none">문화자료</a></li>
+            <li><a href="#none">문화정책</a></li>
+            <li><a href="#none">문화예술인</a></li>
+            <li><a href="#none">생생문화현장</a></li>
+          </ul>
+        </li>
+
+         <li class="depth1">
+          <a href="#none">문화알리미</a>
+          <ul class="depth2">
+            <li><a href="#none">참여형</a></li>
+            <li><a href="#none">신청형</a></li>
+            <li><a href="#none">수문장 교대</a></li>
+            <li><a href="#none">서울거리공연</a></li>
+          </ul>
+        </li>
+
+         <li class="depth1">
+          <a href="#none">이벤트</a>
+          <ul class="depth2">
+            <li><a href="#none">새소식</a></li>
+            <li><a href="#none">공모소식</a></li>
+            <li><a href="#none">보도자료</a></li>
+            <li><a href="#none">채용공고</a></li>
+            <li><a href="#none">e-문화알림</a></li>
+          </ul>
+        </li>
+
+         <li class="depth1">
+          <a href="#none">신청하기</a>
+          <ul class="depth2">
+            <li><a href="#none">문화행사홍보</a></li>
+            <li><a href="#none">문화공간등록</a></li>
+          </ul>
+         </li>
+      </ul>
+    </nav>
 
       <div class="headericon">
         <ul>
-          <li><a href="#" class="login"><img src="./image/header-icon-login.png" alt="로그인아이콘"></a>로그인</li>
-          <li><a href="#"class="search-btn"><img src="./image/header-icon-search.png" alt="검색아이콘">검색</a></li>
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">검색</a></li>
+          <li class="btn"><img src="./image/header-icon-hamburger.png" alt="햄버거아이콘"></li>
         </ul>
+      
       </div>
 
-      <button>
-        <img src="./image/header-icon-hamburger.png" alt="햄버거아이콘">
-      </button>
+      
     </header>
     
+    </div>
+    </div>
+    
+   
     <!-- //header -->
 
-    <!-- 슬라이드 -->
-     <div class="slide">
-      <img src="./image/banner.png" alt="배너">
-     </div>
-    <!--// 슬라이드 -->
+    <!-- Slider main container -->
+  <div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <div class="imge-area"><img src="./image/banner.png"></div>
+    </div>
+    <!-- </div>
+    <div class="swiper-slide">
+      <div class="imge-area"><img src="./image/banner3.png"></div>
+    </div>
+    <div class="swiper-slide">
+      <div class="imge-area"><img src="./image/banner2.png"></div>
+    </div> -->
+  
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
 
     <!-- 본문 -->
-    <div class="container">
+    <div class="">
      <!-- 탭버튼 -->
-       <dvi class="slick-slider">
+       <dvi class="slick-slider container">
         
          <div class="slick-list-Daily">
           <h3>오늘의 문화행사</h3>
@@ -83,7 +164,7 @@
       <!--//탭버튼 -->
 
       <!-- 메인서비스버튼 -->
-      <div class="main-service">
+      <div class="main-service container">
         <h1>서울의 거리</h1>
         <div class="main-service_btn">
 
@@ -134,7 +215,7 @@
        <!--// 메인서비스버튼 -->
 
        <!--탭콘텐츠 -->
-      <div class="main-service-search">
+      <div class="main-service-search container">
         <h1>문화행사</h1>
     
         <div class="cultural-event-btn">
@@ -155,7 +236,7 @@
       </div>
       
 
-      <div class="main-poster">
+      <div class="main-poster container">
         
             <a href="#">
               <div class="poster-image">
@@ -194,7 +275,7 @@
            </a>
       </div>
 
-      <div class="main-poster">
+      <div class="main-poster container">
         <a href="#">
             <div class="poster-image">
                 <img src="./image/poster/poster5.png" alt="[서울식물원] 2025년 서울식물원 기획 전시 [우리들의 자연, 행성적 공존]포스터">
@@ -241,9 +322,8 @@
 
       <!-- 문화소식 -->
        <div class="main-news">
+        <div class="container">
         <h1>문화알리미</h1>
-        
-      
        <div class="content">
         <div class="main-news-image">
           <a href="#">
@@ -304,10 +384,12 @@
         
        </div>
   
+       </div>
+       
 
       <!--// 문화소식 -->
 
-      <div class="main-service-banner">
+      <div class="main-service-banner container">
         <h1>문화참여</h1>
 
         <div class="main-service-img">
@@ -322,7 +404,7 @@
         </div>
       </div>
 
-      <div class="main-service-cultural">
+      <div class="main-service-cultural container">
         <h1>문화소식지</h1>
         <div class="cultural-news">
           <a href="#"><img src="./image/main-news-banner01.png" alt="문화서울로고"></a>
@@ -339,8 +421,8 @@
   
     <!-- // 본문 -->
 
-    <!-- footer -->
-     <div class="footer">
+   <!-- footer -->
+     <div class="footer container">
       <div class="footer-img">
         <div class="footer-icon">
           <span class="footer-icon-left"><img src="./image/footer-icon-left.png"></span>
@@ -354,7 +436,7 @@
         </div>
       </div>
 
-      <div class="footer-Modify">
+      <div class="footer-Modify ">
         <ul>
           <li><a href="#">이용안내</a></li>
           <li><a href="#">개인정보처리방침</a></li>
@@ -383,16 +465,6 @@
     </div>
 
     <!-- // footer -->
-    
-
-        
-    
-
-
-
-
-
-
   
 </body>
 </html>

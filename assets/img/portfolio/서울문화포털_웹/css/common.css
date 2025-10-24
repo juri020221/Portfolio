@@ -1,0 +1,151 @@
+.fixed {
+  position: fixed;
+  z-index: 999; 
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+}
+.gnb-1 {
+  display: flex;
+  justify-content: space-between;
+  line-height: 54px;
+  text-align: center;
+  align-items: center;
+  background-color: var(--white);
+}
+.border {
+  border-bottom: 1px solid var(--gray-scale200);
+}
+.gnb-1 img {
+  padding-bottom: 4px;
+}
+.gnb-1 .nav {
+  display: flex;
+  gap: 20px;
+  color: var(--gray-scale400);
+}
+.gnb-1 .nav a:hover {
+  color: var(--black);
+  font-weight: 500;
+}
+/* 헤더 */
+.width {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+.width .header{
+  
+  display: flex;
+  justify-content: space-between; 
+  height: 60px;
+  text-align: center;
+}
+.gnb-2 .depth1 > a {
+  line-height: 60px;
+}
+.width .header .gnb-2 > ul {
+  display: flex;
+  gap: 50px;
+  font-size: 1.25rem;
+  background-color: #fff;
+}
+.header h1 {
+  margin-top: 10px;
+}
+.width .headericon ul {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  line-height: 60px;
+  color: var(--gray-scale400);
+  
+}
+.width .headericon ul .btn {
+  margin-top: 5px;
+  display: none;
+}
+.width .headericon ul a:hover {
+  color: var(--black);
+  font-weight: 500;
+}
+.gnb-2 .depth2  {
+  width: 100%;
+  margin-top: 10px;
+}
+.gnb-2 .depth2 a {
+   font-size: 1.125rem;
+   line-height: 40px;
+  color: var(--gray-scale400)
+}
+
+.gnb-2 .depth2 a:hover {
+  color: var(--brand-color-2);
+}
+
+.gnb-2 .depth1:hover {
+  color: var(--brand-color-1);
+}
+
+/* footer */
+.footer {
+  height: 475px;
+  align-items: center;
+}
+
+.footer-img {
+  margin-top: 170px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #E4E4E4;
+  border-bottom: 1px solid #E4E4E4;
+}
+  
+.footer .footer-img a {
+  display: inline-block;
+  width: 187px;
+  height: 96px;
+  text-align: center;
+  line-height: 110px;  
+}
+
+.footer-icon-left {
+  padding-right:40px;
+}
+
+.footer-Modify {
+  display: flex;
+  margin-top: 100px;
+  align-items: center; 
+}
+
+.footer .footer-Modify ul {
+  display: flex;
+  gap: 40px;
+  color: #3A3A3A;
+}
+
+.footer .footer-Modify ul li:hover {
+  color: black;
+  font-weight: 500;
+}
+
+.footer .footer-Modify .sns {
+  display: flex;
+  gap: 10px; 
+  margin-left: auto;
+}
+
+.foot-logo-copy {
+  display: flex;
+  margin-top: 40px;
+}
+
+.foot-logo-copy .foot-logo {
+  margin-right: 130px;
+}
+
+.foot-logo-copy .copy {
+  color: #A8A8A8;
+  line-height: 1.5;
+}

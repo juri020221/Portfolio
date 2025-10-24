@@ -1,0 +1,14 @@
+:root {
+  /* color */
+ --white: #ffffff;
+ --black: #161616;
+ --brand-color-1: #F55573;
+ --brand-color-2: #572EFF;
+ --back-color-1: #FEF2F2;
+ --back-color-2: #F8F4F4;
+
+ --gray-scale100: #FBFBFB;
+ --gray-scale200: #E4E4E4;
+ --gray-scale300: #A8A8A8;
+ --gray-scale400: #707070;
+}
